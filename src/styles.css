@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+}
+
+.App {
+  font-family: Helvetica;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.calendar {
+  background: rgba(0, 125, 95, 0.83);
+  color: #fff;
+  padding: 0.5rem;
+  margin: 3rem auto;
+}
+
+.calendar-wrapper {
+  flex: 1 0 auto;
+}
+
+td {
+  padding: 1rem;
+  font-size: 1.1em;
+}
+
+.back-btn,
+.next-btn {
+  cursor: pointer;
+}
+
+.footer {
+  flex-shrink: 0;
+  text-align: center;
+}
+
+.footer a {
+  text-decoration: none;
+  color: #000;
+  margin-left: 0.3rem;
+}
+
+.footer a:hover {
+  background: rgba(0, 125, 95, 0.83);
+  color: #fff;
+  padding: 0.3rem;
+}
